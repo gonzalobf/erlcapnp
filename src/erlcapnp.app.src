@@ -1,4 +1,5 @@
 {application, erlcapnp, [
 		{description, "capnproto library in erlang"},
-		{vsn, "1.0.0"}
+		{vsn, "1.0.0"},
+		{applications, [kernel, stdlib]}
 ]}.

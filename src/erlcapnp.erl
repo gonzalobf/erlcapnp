@@ -4,5 +4,5 @@
 
 -spec init(rebar_state:t()) -> {ok, rebar_state:t()}.
 init(State) ->
-    {ok, NewState} = erlcapnp_compiler:init(State),
+    {ok, NewState} = rebar3_erlcapnp_prv:init(State),
     {ok, NewState}.
